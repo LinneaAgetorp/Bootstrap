@@ -1,4 +1,5 @@
 div[class^="col-"] {
     border: 1px solid black;
-    height: 200px;
+    height: auto;
+    min-height: 100px;
     }
