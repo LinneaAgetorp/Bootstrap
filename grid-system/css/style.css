@@ -3,3 +3,8 @@ div[class^="col-"] {
     height: auto;
     min-height: 100px;
     }
+
+
+i{
+    font-size: 2em;
+}
