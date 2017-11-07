@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <label>Textarea</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea rows="20" class="form-control"></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Save Changes</button>
+        </div>
+      
+      <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" 
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Life changing decision</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...Do you want to save your changes?
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-3">
+                    <a data-toggle="modal" data-target="#img-modal-1">
+                        <img src="images/pexels-photo-1.jpeg" class="img-responsive img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <a data-toggle="modal" data-target="#img-modal-2">
+                        <img src="images/pexels-photo-2.jpeg" class="img-responsive img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <a data-toggle="modal" data-target="#img-modal-3">
+                        <img src="images/pexels-photo-3.jpeg" class="img-responsive img-thumbnail">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <a data-toggle="modal" data-target="#img-modal-4">
+                        <img src="images/pexels-photo-4.jpeg" class="img-responsive img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="modal fade" id="img-modal-1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/pexels-photo-1.jpeg" class="img-responsive img-thumbnail" alt="color">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="img-modal-2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/pexels-photo-2.jpeg" class="img-responsive img-thumbnail" alt="color">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="img-modal-3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/pexels-photo-3.jpeg" class="img-responsive img-thumbnail" alt="color">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="img-modal-4" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <img src="images/pexels-photo-4.jpeg" class="img-responsive img-thumbnail" alt="color">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <h1>Tabs</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active"><a href="#memories" data-toggle="tab">Memories</a></li>
+                        <li><a href="#light" data-toggle="tab">Light</a></li>
+                        <li><a href="#paint" data-toggle="tab">Paint</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="memories">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="images/road.jpg" class="img-responsive img-thumbnail" alt="road in forest">
+                                </div>    
+                                <div class="col-sm-4">
+                                    <img src="images/morning.jpg" class="img-responsive img-thumbnail" alt="mountain in the morning">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/tea-plantation.jpg" class="img-responsive img-thumbnail" alt="tea plantation">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="light">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img src="images/pexels-photo-3.jpeg" class="img-responsive img-thumbnail" alt="light">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/pexels-photo-5.jpeg" class="img-responsive img-thumbnail" alt="light">
+                                </div>
+                                <div class="col-sm-4">
+                                    <img src="images/pexels-photo-6.jpeg" class="img-responsive img-thumbnail" alt="light">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="paint">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="images/pexels-photo-4.jpeg" class="img-responsive img-thumbnail" alt="color">
+                                </div>
+                                    <div class="col-sm-6">
+                                    <img src="images/pexels-photo-2.jpeg" class="img-responsive img-thumbnail" alt="color">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<br>
+<br>
+
+<div class="container">
+    <span class="h1">Lord of the Rings</span> <span class="h4">JRR Tolkien</span>
+    <p class="lead">Sagan om ringen eller Härskarringen, i nyöversättning Ringarnas herre (originaltitel The Lord of the Rings), är en fantasyroman
+        av J.R.R. Tolkien. Den utgavs på engelska för första gången 1954–1955 uppdelad i tre volymer med titlarna The Fellowship of the Ring, 
+        The Two Towers och The Return of the King. Tolkien hade redan 1937 i Bilbo, en hobbits äventyr, introducerat både härskarringen, och flera av huvudfigurerna i trilogin.</p>
+
+            
+    <div class="row">
+        <div class="col-xs-12">
+            <ul class="nav nav-tabs nav-justified">
+                <li class="active"><a href="#author" data-toggle="tab">Author</a></li>
+                <li><a href="#background" data-toggle="tab">Background</a></li>
+                <li><a href="#reviews" data-toggle="tab">Reviews</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="author">
+                    <p>Tolkien studerade engelska och engelsk litteratur vid universitetet i Oxford, med inriktning på filologi. Han var signalofficer i den brittiska armén 
+                        under första världskriget, och deltog bland annat i slaget vid Somme. Han drabbades av skyttegravsfeber i slutet av 1916 och tillbringade återstoden 
+                        av kriget i England. Under tiden på hemmafronten påbörjade han arbetet på sitt legendarium, som skulle komma att se tryck först fyra år efter hans död, i boken Silmarillion år 1977.</p>
+                </div>
+                <div class="tab-pane" id="background">
+                    <p>I början av 1930-talet började han skriva på berättelsen Bilbo – En hobbits äventyr. Berättelsen upptäcktes av förlaget Allen & Unwin, som publicerade den år 1937. Samma år påbörjade 
+                        han arbetet med en uppföljare till Bilbo. År 1945 blev Tolkien professor i engelska och i engelsk litteratur vid Merton College i Oxford. Uppföljaren till Bilbo fick namnet Sagan om 
+                        ringen och publicerades i tre delar av Allen & Unwin mellan 1954 och 1955. Sagan om ringen blev en succé och något av en kultbok på amerikanska college under 1960-talet.</p>
+                </div>
+                <div class="tab-pane" id="reviews">
+                    <p>Medan många andra författare hade publicerat fantasyverk före Tolkien,[4] ledde den stora framgången med Bilbo och Sagan om ringen när de publicerades i pocket i USA, direkt till en populärt 
+                        återuppvaknande av genren. Detta har orsakat att Tolkien populärt identifieras som "fadern" av den moderna fantasylitteraturen[5]—eller, mer exakt, av high fantasy.[6] Tolkiens skrifter har 
+                        inspirerat många andra fantasyverk och har haft en bestående effekt på hela området.[7] År 2008 rankade The Times honom på en sjätte plats över listan över "de 50 största brittiska författarna 
+                        sedan 1945".[8] Forbes rankade honom den 5:e mest inkomstbringande döda kändisen år 2009.[9]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
